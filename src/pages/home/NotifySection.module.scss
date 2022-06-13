@@ -1,0 +1,19 @@
+.notify {
+  /* for Opera,webkit chrome browsers */
+  input::-webkit-input-placeholder {
+    color: #a0a0a0;
+  }
+  /*firefox 19+ versions*/
+  input::-moz-placeholder {
+    color: #a0a0a0;
+  }
+  /*IE  versions*/
+  input::-ms-placeholder {
+    color: #a0a0a0;
+  }
+  /*Latest modern browsers */
+
+  input::placeholder {
+    color: #a0a0a0;
+  }
+}

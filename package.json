@@ -1,0 +1,49 @@
+{
+	"name": "zkpad-frontend-next",
+	"description": "ZkPad - 1st decentralized launchpad on Starknet",
+	"homepage": "https://zkpad.io",
+	"license": "Apache-2.0",
+	"version": "1.0.0",
+	"repository": {
+		"url": "https://github.com/ZkPad-Labs/zkpad-frontend-next"
+	},
+	"author": {
+		"url": "https://zkpad.io",
+		"name": "ZkPad Labs"
+	},
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@chakra-ui/icons": "^1.1.7",
+		"@chakra-ui/react": "^1.8.6",
+		"@emotion/react": "^11",
+		"@emotion/server": "^11.4.0",
+		"@emotion/styled": "^11",
+		"@splitbee/web": "^0.3.0",
+		"@web3-starknet-react/argentx-connector": "^1.1.0",
+		"@web3-starknet-react/core": "^1.1.0",
+		"axios": "^0.26.1",
+		"email-validator": "^2.0.4",
+		"framer-motion": "^6",
+		"next": "12.1.0",
+		"next-seo": "^5.1.0",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"starknet": "^3.5.1",
+		"tiny-warning": "^1.0.3"
+	},
+	"devDependencies": {
+		"@types/node": "17.0.21",
+		"@types/react": "17.0.40",
+		"eslint": "8.11.0",
+		"eslint-config-next": "12.1.0",
+		"eslint-config-sznm": "^0.2.1",
+		"sass": "^1.49.11",
+		"typescript": "4.6.2"
+	}
+}
